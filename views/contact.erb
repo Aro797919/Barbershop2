@@ -1,0 +1,10 @@
+<h1> Контакты </h1>
+<form action = '/contacts' method = 'POST' role="form">
+  <div class ="form-group" >
+  <label> Ваше Email</label> 
+   <input  name ="email" type="text" class="form-control" placeholder = "Ваше email" value="<%= @email %>">
+   </div><br><brSS>
+   <label> Сообщение</label>
+   <textarea name = "sms" class="form-control" rows="6" value="<%= @sms %>"></textarea><br><br>
+   <button type ='submit' class = 'btn btn-primary'>Записаться </button>
+   </form>
